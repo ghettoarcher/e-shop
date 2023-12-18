@@ -10,18 +10,64 @@ header{
 .header-search{
       display: flex;
       flex-direction: row;
+      border: 2px solid #0D6EFD;
+      border-radius: 5px;
 }
 
 .header-right-links{
       display: flex;
       flex-direction: row;
+      justify-content: center;
 }
-
-.header-search-field{
-      width: 421px;
+.header-search-button{
+      background: linear-gradient(180deg, #127FFF 0%, #0067FF 100%);
+      width: 100px;
+      height: 40px;
+      border: none;
+            color: var(--white, #FFF);
+      text-align: center;
+      font-feature-settings: 'clig' off, 'liga' off;
+      /* text-btn/btn-normal */
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+}
+.header-search-category {
+      width: 145px;
       height: 40px;
       flex-shrink: 0;
-      fill: var(--white, #FFF);
-      stroke-width: 1px;
-      stroke: var(--primary, #0D6EFD);
+      appearance: none;
+      background: url(/src/icons/expand_more.svg) no-repeat right;
+      padding-left: 10px;
+}
+
+.header-right-link-text{
+      color: var(--gray-500, #8B96A5);
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Inter;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-align: center;
+      margin: auto;
+      padding-top: 3px;
+      }
+
+.header-right-links-wrapper{
+      margin-right: 21px;
+      justify-content: center;
+}
+
+.header-right-links-icon{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 5px;
+}
+.header-search-field{
+      width: 406px;
+      flex-shrink: 0;
+
 }
