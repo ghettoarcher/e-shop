@@ -1,0 +1,8 @@
+.categories-column-item{
+    color: var(--dark, #1C1C1C);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
