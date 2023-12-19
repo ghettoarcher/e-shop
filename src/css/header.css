@@ -1,0 +1,27 @@
+header{
+      padding-top: 20px;
+      padding-bottom: 20px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+}
+
+.header-search{
+      display: flex;
+      flex-direction: row;
+}
+
+.header-right-links{
+      display: flex;
+      flex-direction: row;
+}
+
+.header-search-field{
+      width: 421px;
+      height: 40px;
+      flex-shrink: 0;
+      fill: var(--white, #FFF);
+      stroke-width: 1px;
+      stroke: var(--primary, #0D6EFD);
+}
