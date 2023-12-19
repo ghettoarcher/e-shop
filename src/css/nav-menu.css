@@ -1,0 +1,90 @@
+.nav-menu {
+   width: 100%;
+   height: 55px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border: 1px solid #E0E0E0;
+   border-left: none;
+   border-right: none;
+   background:  #fdfdff;
+   color: #1C1C1C;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 22px; /* 137.5% */
+}
+
+.nav-menu-left {
+   display: flex;
+   gap: 28px;
+   align-items: center;
+   padding-left: 130px;
+   
+}
+
+.nav-menu-left a {
+   text-decoration: none;
+   color: black;
+ 
+}
+
+.icon-category {
+   padding-right: 5px;
+}
+
+.icon-help {
+   width: 12px;
+   height: 12px;
+   flex-shrink: 0;
+   padding-left: 5px;
+}
+
+.nav-menu-burger {
+   display: flex;
+   align-items: center;
+}
+
+.nav-menu-right{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding-right: 130px;
+   gap: 58px;
+   
+}
+
+.icons-language {
+   width: 12px;
+   height: 12px;
+   flex-shrink: 0;
+   padding-left: 5px;
+}
+
+.icons-flags {
+   justify-content: center;
+   margin-left: 6px;
+   align-items: center;
+   flex-shrink: 0;
+}
+
+ .delivery{
+   display: flex;
+   align-items: center;
+   text-decoration: none;
+   color: black;
+ }
+ 
+ .icons-delivery{
+   width: 12px;
+   height: 12px;
+   flex-shrink: 0;
+   padding-left: 9px;
+ }
+
+
+
+ 
+
+ 
