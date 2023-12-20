@@ -8,5 +8,6 @@
 body{
       margin: 0;
       padding: 0;
+      background: var(--gray-100, #F7FAFC);
       
 }
