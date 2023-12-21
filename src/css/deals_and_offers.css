@@ -1,0 +1,109 @@
+.deals_and_offers{
+      display: flex;
+      flex-direction: row;
+      margin-top: 30px;
+      justify-content: space-around;
+      background-color: #fff;
+      border: 1px solid #DEE2E7;
+      justify-content: start;
+}
+
+.title{
+      color: #1C1C1C;
+      font-family: Inter;
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 28px;
+}
+
+.subtitle{
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      color: #8B96A5;
+}
+
+.deals_and_offers_item__wrapper{
+      display: flex;
+      flex-direction: row;
+}
+
+
+.deals_and_offers_item{
+      display: flex;
+      width: 179px;
+      height: 235px;
+      align-items: center;
+      /* padding-top: 8px;
+      padding-left: 20px;
+      padding-right: 19px;
+      padding-bottom: 17px; */
+      justify-content: center;
+      border:1px solid #E0E0E0;
+      flex-direction: column;
+}
+
+.deals_and_offers__timer{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      align-items: start;
+}
+
+.item-name{
+      color: var(--dark, #1C1C1C);
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px; /* 150% */
+      letter-spacing: -0.2px;
+}
+
+.item-discount{
+      height: 28px;
+      color: #EB001B;
+      text-align: center;
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 500;
+      letter-spacing: -0.2px;
+      border-radius: 29px;
+      background: #FFE3E3;
+}
+
+.timer-wrapper{
+      display: flex;
+      flex-direction: row;
+}
+.timer-number{
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 700;
+}
+
+
+.timer-item{
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px;
+      background: #606060;
+      margin-right: 6px;
+      width: 45px;
+      height: 50px;
+      align-items: center;
+      padding-top: 8px;
+
+}
+.timer-item:last-child{
+      margin-right: 0;
+}
+.timer-text{
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 12px;
+      font-weight: 400;
+      }
