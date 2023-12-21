@@ -6,9 +6,12 @@
     margin-left: 130px;
     margin-right: 130px;
     margin-top: 20px;
-    padding: 20px 20px 20px 14px;
     justify-content: space-between;
+    padding-left: 14px;
+    padding-top: 20px;
+    padding-right: 20px;
 }
+
 
 
 .categories-column-item{
@@ -38,6 +41,8 @@
 }
 
 .categories-learn-more-img{
+    width: 664px;
+height: 373px;  
 }
 .categories-learn-more__subtitle{
     color: var(--base-color-dark, #1C1C1C);
