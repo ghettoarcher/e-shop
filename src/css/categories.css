@@ -40,6 +40,7 @@
 }
 
 .categories-learn-more-img{
+    background: url(/src/img/categories/categories-img1.png);
     width: 664px;
     height: 373px;  
 }
@@ -51,9 +52,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    position: absolute;
-    top: 28%;
-    left: 35%;
+
 }
 
 .categories-learn-more__title{
@@ -62,14 +61,10 @@
     font-family: Inter;
     font-size: 32px;
     font-weight: 700;
-    position: absolute;
-    top: 32%;
-    left: 35%;
+
 }
 .categories-learn-more__button{
-    position: absolute;
-    top: 37%;
-    left: 35%;
+
     margin-top: 17px;
     display: inline-flex;
     height: 40px;
@@ -101,20 +96,16 @@
 
 .categories-label{
     border-radius: 6px;
-height: 95px;
+    height: 95px;
     color: var(--white, #FFF);
-font-feature-settings: 'clig' off, 'liga' off;
-
-/* Text-base */
-font-family: Inter;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .categories-label{
-    width: 200px;
-    padding: 16px 40px 22px 16px;
+    padding: 16px 0 0 16px ;
 }
 .categories-label-text{
     width: 144px;
@@ -127,6 +118,8 @@ line-height: normal;
 .categories-label.blue{
     background: #55BDC3;
     margin-top: 10px;
+    height: 76px;
+
 }
 
 .hi-user{
