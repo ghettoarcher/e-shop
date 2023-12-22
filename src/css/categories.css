@@ -3,13 +3,12 @@
     display: flex;
     flex-direction: row;
     background-color: #fff;
-    margin-left: 130px;
-    margin-right: 130px;
     margin-top: 20px;
     justify-content: space-between;
     padding-left: 14px;
     padding-top: 20px;
     padding-right: 20px;
+    border: 1px solid #DEE2E7 ;
 }
 
 
@@ -85,12 +84,14 @@
     border: 1px solid var(--white, #FFF);
     background: var(--white, #FFF);;
 }
-
+.categories-learn-more-wrapper{
+    padding: 56px 0 0 44px;
+}
 
 .right-column-wrapper{
     display: flex;
     flex-direction: column;
-    width: 150px;
+    width: auto;
 }
 
 .categories-label{
@@ -125,10 +126,11 @@
     display: flex;
     flex-direction: column;
     border-radius: 6px;
-    padding: 14px 0 12px 12px;
     background: #E3F0FF;
     width: 200px;
     height: 150px;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -136,12 +138,10 @@
     display: flex;
     flex-direction: row;
     width: 200px;
-height: 150px;
 }
 .hi-user_text{
     color: var(--dark, #1C1C1C);
     font-feature-settings: 'clig' off, 'liga' off;
-    width: 112px;
     height: 38px;
     margin-left: 9px;
     /* Text-base */
@@ -159,6 +159,7 @@ height: 150px;
 .hi-user__buttons{
     display: flex;
     flex-direction: column;
+    margin-top: 28px;
 }
 
 .join-now-button.button{
