@@ -1,25 +1,29 @@
+.container {
+   display: flex;
+}
+
+
 .gadgets{
    display: flex;
    flex-direction: row;
-   width: 224px;
-   height: 127px;
+   flex-wrap: wrap; 
    margin-top: 20px;
+   display: flex;
+   flex-wrap: wrap; /* Разрешить перенос элементов */
+   width: 90%; /* Увеличьте ширину, чтобы вместить два ряда */
+   margin-top: 20px;
+   
 }
 
-/* .home-item-2 {
-   display: flex;
-   flex-direction: row;
 
-   width: 224px;
-   height: 127px;
-   margin-top: 20px;
-} */
 
 .home-card {
    position: relative; /* Создаём область позиционирования для дочерних элементов */
-   width: 280px;
+   width: 320px;
    height: 257px;
-   margin-top: 25px;
+   margin-top: 20px;
+   
+
 }
 
 .home-btn{
@@ -31,7 +35,7 @@
    border: 1px solid #fff;
    box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.08);
    height: 40px;
-   width: 123px;
+   width: 90px;
    padding: 0 16px;
    display: flex;
    flex-direction: column;
@@ -40,7 +44,6 @@
    color: var(--dark, #1C1C1C);
    text-align: center;
    font-feature-settings: 'clig' off, 'liga' off;
-
    /* text-btn/btn-normal */
    font-family: Inter;
    font-size: 16px;
@@ -71,12 +74,15 @@
 
 .card-item{
    border: 1px solid var(--white, #cbcbcb);
-   width: 224px;
+   width: 207px;
    height: 127px;
-   margin-top: 25px;
    background-color:#FFF;
    display: flex;
    flex-direction: column;
+   position: relative;
+   
+   
+
 
 }
 .card-name-item{
@@ -109,7 +115,6 @@
 }
 
 .home-image{
-
    display: flex;
    margin-top: -30px;
    padding-left: 135px;
@@ -119,3 +124,5 @@
    height: 69.244px;
 
 }
+
+
