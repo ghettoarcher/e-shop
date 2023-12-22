@@ -1,0 +1,19 @@
+.extra{
+      margin-top: 30px;
+}
+
+.extra-img{
+      background:url(/src/img/recommended/image\ 108.png) no-repeat;
+
+width: auto;
+height: 222px;
+}
+
+.extra-wrapper{
+      display: flex;
+      flex-direction: column;
+}
+
+.extra-icon{
+      background-color: #D1E7FF;
+}
