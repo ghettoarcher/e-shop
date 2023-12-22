@@ -1,15 +1,19 @@
-
 .gadgets{
    display: flex;
    flex-direction: row;
-   flex-wrap: wrap; 
+   width: 224px;
+   height: 127px;
    margin-top: 20px;
-   display: flex;
-   flex-wrap: wrap; /* Разрешить перенос элементов */
-   width: 110%; /* Увеличьте ширину, чтобы вместить два ряда */
-   margin-top: 20px;
-
 }
+
+/* .home-item-2 {
+   display: flex;
+   flex-direction: row;
+
+   width: 224px;
+   height: 127px;
+   margin-top: 20px;
+} */
 
 .home-card {
    position: relative; /* Создаём область позиционирования для дочерних элементов */
@@ -20,7 +24,7 @@
 
 .home-btn{
    position: absolute;
-   top: 110px;
+   top: 90px;
    left: 20px;
    background-color:#FFF;
    border-radius: 6px;
@@ -36,6 +40,7 @@
    color: var(--dark, #1C1C1C);
    text-align: center;
    font-feature-settings: 'clig' off, 'liga' off;
+
    /* text-btn/btn-normal */
    font-family: Inter;
    font-size: 16px;
@@ -43,6 +48,7 @@
    font-weight: 500;
    line-height: normal;
 
+ 
 }
 
 .home-text-item{
@@ -58,23 +64,8 @@
    font-weight: 600;
    line-height: 26px; /* 130% */
    letter-spacing: -0.2px;
-   width: 154px;
-}
 
-.main-card-item{
-   display: flex;
-   flex-direction: column;
-
-}
-.item-card-1 {
-   display: flex;
-   flex-direction: row;
-}
-
-.item-card-2{
-   display: flex;
-   flex-direction: row;
-   margin-top: -25px;
+   
 }
 
 
@@ -86,14 +77,15 @@
    background-color:#FFF;
    display: flex;
    flex-direction: column;
-}
 
+}
 .card-name-item{
    padding-top: 20px;
    padding-left: 16px;
+   width: 100px;
    color: var(--base-color-dark, #1C1C1C);
    font-feature-settings: 'clig' off, 'liga' off;
-   width: 138.619px;
+
    /* Text-base */
    font-family: Inter;
    font-size: 16px;
@@ -107,6 +99,7 @@
    padding-left: 16px;
    color: var(--gray-500, #8B96A5);
    font-feature-settings: 'clig' off, 'liga' off;
+
    /* Text-small */
    font-family: Inter;
    font-size: 13px;
@@ -116,11 +109,13 @@
 }
 
 .home-image{
+
    display: flex;
    margin-top: -30px;
    padding-left: 135px;
    padding-right: 9.5px;
    padding-bottom: 100px;
    width: 66.693px;
-   height: 69px;
+   height: 69.244px;
+
 }
