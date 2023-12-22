@@ -96,6 +96,7 @@
 .right-column-wrapper{
     display: flex;
     flex-direction: column;
+    width: auto;
 }
 
 .categories-label{
