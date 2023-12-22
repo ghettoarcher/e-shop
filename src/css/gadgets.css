@@ -74,7 +74,7 @@
 
 .card-item{
    border: 1px solid var(--white, #cbcbcb);
-   width: 207px;
+   width: auto;
    height: 127px;
    background-color:#FFF;
    display: flex;
