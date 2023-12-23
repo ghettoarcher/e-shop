@@ -69,7 +69,7 @@
    flex-shrink: 0;
 }
 
- .delivery{
+ .switch-country{
    display: flex;
    align-items: center;
    text-decoration: none;
