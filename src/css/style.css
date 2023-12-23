@@ -7,6 +7,8 @@
 @import url(recommended.css);
 @import url(extra.css);
 @import url(suppliers.css);
+@import url(form.css);
+@import url(footer.css);
 
 
 
@@ -14,5 +16,6 @@ body{
       margin: 0;
       padding: 0;
       background: var(--gray-100, #F7FAFC);
+      
       
 }
