@@ -49,3 +49,17 @@ height: 120px;
       bottom: 75px;
       right: 42px;
 }
+
+.bg-icon{
+      position: absolute;
+      left: 205px;
+      top: 100px;
+      width: 40px;
+      height: 40px;
+      border-radius: 100px;
+      background-color: #D1E7FF;
+      stroke-width: 2px;
+stroke: var(--base-color-white, #FFF);
+      z-index: 1;
+
+}
