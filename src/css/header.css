@@ -26,10 +26,8 @@ header{
       width: 100px;
       height: 40px;
       border: none;
-            color: var(--white, #FFF);
+            color: #FFF;
       text-align: center;
-      font-feature-settings: 'clig' off, 'liga' off;
-      /* text-btn/btn-normal */
       font-family: Inter;
       font-size: 16px;
       font-style: normal;
@@ -46,13 +44,10 @@ header{
 }
 
 .header-right-link-text{
-      color: var(--gray-500, #8B96A5);
-      font-feature-settings: 'clig' off, 'liga' off;
+      color: #8B96A5;
       font-family: Inter;
       font-size: 12px;
-      font-style: normal;
       font-weight: 400;
-      line-height: normal;
       text-align: center;
       margin: auto;
       padding-top: 3px;
