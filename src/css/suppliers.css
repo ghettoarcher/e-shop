@@ -1,0 +1,41 @@
+.suppliers{
+      margin-top: 30px;
+      margin-bottom: 46px;
+}
+
+
+.suppliers-item{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 11px;
+}
+
+.suppliers-item-wrapper{
+      display: flex;
+      flex-direction: column;
+      width: 221px;
+      gap: 12px;
+}
+.suppliers-wrapper{
+      margin-top: 24px;
+      display: flex;
+      flex-direction: row;
+      gap:18px
+}
+
+.suppliers-country{
+      color: #1C1C1C;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.2px;
+}
+
+.suppliers-website{
+      color: #8B96A5;
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 400;
+}

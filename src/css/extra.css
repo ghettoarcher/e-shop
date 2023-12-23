@@ -3,17 +3,49 @@
 }
 
 .extra-img{
-      background:url(/src/img/recommended/image\ 108.png) no-repeat;
-
-width: auto;
-height: 222px;
+height: 120px;
 }
 
-.extra-wrapper{
+.extra-items-wrapper{
       display: flex;
-      flex-direction: column;
+      flex-direction: row;
+      margin-top: 30px;
+      gap: 20px;
 }
 
 .extra-icon{
       background-color: #D1E7FF;
+}
+.extra-item{
+      position: relative;
+      border:1px solid #E0E0E0;
+}
+.extra-descr{
+      
+      width: 110px;
+      color:#1C1C1C;
+      font-family: Inter;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 22px;
+      padding: 20px 0 20px 20px;
+}
+
+.extra-descr-wrapper{
+      background: #fff;
+      position: relative;
+}
+
+.search-img{
+      background:url(/src/img/extra/search-font.svg) no-repeat;
+      background-size: 55px;
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      /* background-color: #D1E7FF; */
+      border-radius: 50%;
+      background-size: 50% 50%;
+      z-index: 1;
+      bottom: 75px;
+      right: 42px;
 }
