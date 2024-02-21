@@ -39,15 +39,21 @@
 .subscribe-field{
       width: 274px;
       height: 40px;
-      border-radius: 6px;
-      border:1px solid #DEE2E7;
+      border:none;
 }
+
 
 .subscribe-field-wrapper{
       display: flex;
       flex-direction: row;
+      border: 1px solid #DEE2E7;
+      background-color: #fff;
+      border-radius: 6px;
 }
 
+.subscribe-img{
+      margin: 8px 6px 8px 8px;
+}
 .subscribe-button{
       margin-left: 8px;
       height: 40px;

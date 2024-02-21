@@ -69,3 +69,7 @@ header{
       flex-shrink: 0;
 
 }
+
+.header-wrapper{
+      background-color: #fff;
+}

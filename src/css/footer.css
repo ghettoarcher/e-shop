@@ -1,5 +1,6 @@
 
 footer{
+   width: 1440px;
    display: flex;
    flex-direction: row;
    width: auto;
@@ -61,7 +62,7 @@ footer{
 .Information-footer{
    display: flex;
    flex-direction: column;
-   gap: 3px;
+   /* gap: 3px; */
    justify-content: center;
    padding-top: 40px;
 
