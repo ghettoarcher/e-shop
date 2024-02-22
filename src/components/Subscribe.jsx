@@ -3,17 +3,17 @@ import '../css/container.css'
 
 export default function Subscribe(){
       return(
-            <section class="subscribe">
-            <div class="subscribe-wrapper">
-            <div class="subscribe-title">Subscribe on our newsletter</div>
-            <div class="subscribe-subtitle">Get daily news on upcoming offers from many suppliers all over the world</div>
-            <div class="subscribe-email">
-                  <div class="subscribe-field-wrapper">
+            <section className="subscribe">
+            <div className="subscribe-wrapper">
+            <div className="subscribe-title">Subscribe on our newsletter</div>
+            <div className="subscribe-subtitle">Get daily news on upcoming offers from many suppliers all over the world</div>
+            <div className="subscribe-email">
+                  <div className="subscribe-field-wrapper">
                         <img className='subscribe-img' src="src/icons/email.svg" alt=""/>
-                        <input class="subscribe-field" type="text" placeholder="Email"/>
+                        <input className="subscribe-field" type="text" placeholder="Email"/>
                   </div>
                   
-                  <button class="subscribe-button">Subscribe</button>
+                  <button className="subscribe-button">Subscribe</button>
             </div>
       </div>
 </section>
