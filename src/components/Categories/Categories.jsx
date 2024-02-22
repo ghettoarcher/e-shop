@@ -1,5 +1,3 @@
-import '../css/categories.css'
-import '../css/container.css'
 
 export default function Categories(){
       return(
