@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 
 export default function Deals_and_offers_item(image,name,discount){
 
@@ -10,3 +11,14 @@ export default function Deals_and_offers_item(image,name,discount){
                   </div>
       )
 };
+=======
+export default function(image,name,discount){
+      return(
+            <div className="deals_and_offers_item">
+                        <img class="item-img " src={image} alt=""/>
+                        <div class="item-name">{name}</div>
+                        <div class="item-discount">{discount}</div>  
+                  </div>
+      )
+}
+>>>>>>> 1aa21930d9d4a5b1229eab4401ff1baa7777aaf9
