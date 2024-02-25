@@ -1,4 +1,4 @@
-.deals_and_offers{
+.Deals{
       display: flex;
       flex-direction: row;
       margin-top: 30px;
@@ -22,13 +22,13 @@
       color: #8B96A5;
 }
 
-.deals_and_offers_item__wrapper{
+.Deals_item__wrapper{
       display: flex;
       flex-direction: row;
 }
 
 
-.deals_and_offers_item{
+.deals_card{
       position: relative;
       display: flex;
       flex-direction: column;
@@ -38,8 +38,13 @@
       justify-content: center;
       border:1px solid #E0E0E0;
 }
+.card-body{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
 
-.deals_and_offers__timer{
+.Deals__timer{
       display: flex;
       flex-direction: column;
       justify-content: start;
@@ -48,7 +53,7 @@
       padding-top: 20px;
 }
 
-.item-name{
+.card-name{
       color: var(--dark, #1C1C1C);
       text-align: center;
       font-family: Inter;
@@ -64,12 +69,12 @@
       flex-direction: column;
       justify-content: space-between;
 }
-.item-img{
+.card-img{
       width: auto;
       height:110px;
 }
 
-.item-discount{
+.card-discount{
       display: flex;
       align-items: center;
       justify-content: center;
