@@ -1,58 +1,13 @@
-                                                                                                           
-const Deals = () => {
-  const products = [
-    {
-      name: 'Smart watches',
-      discount: '-25%',
-      image: '/src/img/tech/image 35.png'
-    },
-    {
-      name: 'Laptops',
-      discount: '-15%',
-      image: '/src/img/tech/image 34.png'
-    },
-    {
-      name: 'GoPro cameras',
-      discount: '-40%',
-      image: '/src/img/tech/image 28.png'
-    },
-    {
-      name: 'Headphones',
-      discount: '-25%',
-      image: '/src/img/tech/image 29.png'
-    },
-    {
-      name: 'Canon cameras',
-      discount: '-25%',
-      image: '/src/img/tech/image 23.png'
-    }
-  ];
+import Timer from '../timer/Timer';
+import products from './products';
 
+const Deals = () => {
   return (
     <div className="container">
       <section className="Deals">
-        <div className="Deals__timer">
-          <div className="title">Deals and offers</div>
-          <div className="subtitle">Hygiene equipments</div>
-          <div className="timer-wrapper">
-            <div className="timer-item">
-              <div className="timer-number">04</div>
-              <div className="timer-text">Days</div>
-            </div>
-            <div className="timer-item">
-              <div className="timer-number">13</div>
-              <div className="timer-text">Hour</div>
-            </div>
-            <div className="timer-item">
-              <div className="timer-number">34</div>
-              <div className="timer-text">Min</div>
-            </div>
-            <div className="timer-item">
-              <div className="timer-number">56</div>
-              <div className="timer-text">Sec</div>
-            </div>
-          </div>
-        </div>
+
+      <Timer/>
+        
         <div className="Deals_item__wrapper">
         {products.map((product, index) => (
             <div className="deals_card" key={index}>
