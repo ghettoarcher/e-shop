@@ -47,13 +47,19 @@ export default function Source(){
       <div className="container">
             <section className="gadgets">  
                         
-                        <MainCard />
+            <MainCard
+                         image = 'src/img/backgtound-home.png'
+                         name = 'Home and outdoor'
+                         textBtn = 'Source now'/>
 
             <div className="main-card-item">
                         <SourceCard products={home}/>
                         <SourceCard products={electronic}/>    
             </div>
-                  <MainCard/>
+            <MainCard
+                         image = 'src/img/backgtound-home.png'
+                         name = 'Consumer electronics and gadgets'
+                         textBtn = 'Source now'/>
             <div className="main-card-item">
                         <SourceCard products={home}/>
                         <SourceCard products={electronic}/>    
