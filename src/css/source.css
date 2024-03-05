@@ -1,16 +1,16 @@
-.gadgets{
+.source{
    display: flex;
    flex-direction: row;
    flex-wrap: wrap; 
    margin-top: 20px;
    display: flex;
-   flex-wrap: wrap; /* Разрешить перенос элементов */
-   width: 110%; /* Увеличьте ширину, чтобы вместить два ряда */
+   flex-wrap: wrap;
+   width: 110%; 
    margin-top: 20px;
 
 }
 
-.home-card {
+.source-card {
    position: relative; 
    width: 280px;
    height: 257px;
@@ -32,7 +32,7 @@
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   color: var(--dark, #1C1C1C);
+   color: #1C1C1C;
    text-align: center;
    font-family: Inter;
    font-size: 16px;
@@ -41,7 +41,7 @@
 }
 
 .home-text-item{
-   position: absolute; /* Позиционируем текст поверх картинки */
+   position: absolute;
    top: 20px;
    left: 20px;
    color:#1C1C1C;
@@ -53,17 +53,17 @@
    width: 154px;
 }
 
-.main-card-item{
+.main-card{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
 
 }
 
-.item-card:nth-child(2){
+.cards-row:nth-child(2){
    margin-top: -26px;
 }
-.item-card{
+.cards-row{
    display: flex;
    flex-direction: row;
 }
@@ -99,6 +99,7 @@
 }
 
 .home-image{
+   z-index: 1;
    display: flex;
    margin-top: -30px;
    padding-left: 135px;

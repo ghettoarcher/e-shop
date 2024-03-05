@@ -1,8 +1,6 @@
-import '../css/footer.css'
-import '../css/container.css'
+
 export default function Copyrightfooter(){
       return(
-            <div className="container">
       <div className="copyright-footer">
             <div className="title-copyright-footer">© 2023 Ecommerce. </div>
             <div className="switch-country"><img className="english-flag" src="/src/icons/flags/US@2x.png"alt=""/>English.
@@ -10,6 +8,6 @@ export default function Copyrightfooter(){
             </div>
             
             </div>
-      </div>
+
       )
 }

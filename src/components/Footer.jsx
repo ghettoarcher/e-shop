@@ -3,7 +3,6 @@ import '../css/container.css'
 
 export default function Footer(){
       return(
-            <div className="container">
       <footer className="footer">
             <div className="left-wrapper-footer">
                   <img className="footer-logo" src="src/icons/Brand/logo-colored.svg" alt=""/>
@@ -56,6 +55,6 @@ export default function Footer(){
                   </div>
             </div>
       </footer>
-</div>
+
       )
 }

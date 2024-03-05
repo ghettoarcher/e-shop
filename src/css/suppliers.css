@@ -5,19 +5,18 @@
 
 
 .suppliers-item{
+      width: 221px;
+      height: 36px;
       display: flex;
       flex-direction: row;
       align-items: center;
       gap: 11px;
 }
 
-.suppliers-item-wrapper{
-      display: flex;
-      flex-direction: column;
-      width: 221px;
-      gap: 12px;
-}
+
 .suppliers-wrapper{
+      margin-left: 3px;
+      flex-wrap: wrap;
       margin-top: 24px;
       display: flex;
       flex-direction: row;

@@ -4,7 +4,6 @@
 export default function Header(){
       return(
             <div className="header-wrapper">
-        <div className="container">
         <header>
               <div className="header-logo">
                     <img src="src/icons/Brand/logo-colored.svg" alt="brand"/>
@@ -41,7 +40,7 @@ export default function Header(){
     
         </header>
         
-    </div>
+
     </div>
       )
     }

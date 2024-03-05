@@ -1,3 +1,4 @@
+
 .extra{
       margin-top: 30px;
 }
@@ -11,29 +12,33 @@ height: 120px;
       flex-direction: row;
       margin-top: 30px;
       gap: 20px;
+
 }
 
 .extra-icon{
       background-color: #D1E7FF;
 }
+
 .extra-item{
+      background-color: #fff;
       position: relative;
       border:1px solid #E0E0E0;
 }
+
 .extra-descr{
-      
-      width: 110px;
+
       color:#1C1C1C;
       font-family: Inter;
       font-size: 16px;
-      font-weight: 500;
+      font-weight: 700;
       line-height: 22px;
       padding: 20px 0 20px 20px;
 }
 
 .extra-descr-wrapper{
-      background: #fff;
       position: relative;
+      height: auto;
+      width: 200px;
 }
 
 .search-img{
@@ -42,7 +47,6 @@ height: 120px;
       position: absolute;
       width: 24px;
       height: 24px;
-      /* background-color: #D1E7FF; */
       border-radius: 50%;
       background-size: 50% 50%;
       z-index: 1;
@@ -59,7 +63,6 @@ height: 120px;
       border-radius: 100px;
       background-color: #D1E7FF;
       stroke-width: 2px;
-stroke: var(--base-color-white, #FFF);
       z-index: 1;
 
 }

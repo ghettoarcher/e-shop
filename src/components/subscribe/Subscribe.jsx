@@ -1,5 +1,3 @@
-import '../css/subscribe.css'
-import '../css/container.css'
 
 export default function Subscribe(){
       return(

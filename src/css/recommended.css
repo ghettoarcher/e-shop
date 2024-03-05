@@ -5,21 +5,22 @@
 .recommended-wrapper{
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
       align-items: center;
       margin-top: 33px;
       gap: 20px;
+      flex-wrap: wrap;
 }
 .recommended-title.title{
       color: #1C1C1C;
       font-family: Inter;
       font-size: 24px;
       font-weight: 600;
-      line-height: 32px; /* 133.333% */
+      line-height: 32px;
       letter-spacing: -0.2px;
 }
 
 .recommended-item{
+    margin-bottom: 20px;
       align-items: center;
       justify-content: center;
       border: 1px solid #E0E0E0;
@@ -32,6 +33,7 @@
       padding-right: 10px;
       padding-top: 3px;
 }
+
 
 .descr-wrapper{
       display: flex;
@@ -62,4 +64,4 @@
 .recommended-img{
       width: 150px;
       height: 170px;
-}
+      }

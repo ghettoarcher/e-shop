@@ -6,7 +6,7 @@ export default function Source(){
             {
             name: 'Soft chairs',
             price: 20,
-            image: '/src/img/interior/1.png'
+            image: '/src/icons/flags/AE@2x.png'
             },
             {
             name: 'Soft chairs',
@@ -44,27 +44,28 @@ export default function Source(){
             },
       ];
       return(
-      <div className="container">
-            <section className="gadgets">  
+            <section className="source">  
                         
             <MainCard
                          image = 'src/img/backgtound-home.png'
                          name = 'Home and outdoor'
-                         textBtn = 'Source now'/>
+                         textBtn = 'Source now'
+            />
 
-            <div className="main-card-item">
+            <div className="main-card">
                         <SourceCard products={home}/>
-                        <SourceCard products={electronic}/>    
+                        <SourceCard products={home}/>
+                           
             </div>
             <MainCard
-                         image = 'src/img/backgtound-home.png'
+                         image = 'src/img/background-electronics.png'
                          name = 'Consumer electronics and gadgets'
                          textBtn = 'Source now'/>
-            <div className="main-card-item">
-                        <SourceCard products={home}/>
+            <div className="main-card">
+                        <SourceCard products={electronic}/> 
                         <SourceCard products={electronic}/>    
             </div>
             </section>
-      </div>
+
       )
 }

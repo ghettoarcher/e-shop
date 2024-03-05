@@ -1,5 +1,4 @@
-import '../css/nav-menu.css'
-import '../css/container.css'
+
 
 export default function(){
       return(

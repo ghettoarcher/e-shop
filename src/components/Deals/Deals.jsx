@@ -3,7 +3,6 @@ import products from './products';
 
 const Deals = () => {
   return (
-    <div className="container">
       <section className="Deals">
 
       <Timer/>
@@ -20,7 +19,7 @@ const Deals = () => {
           ))}
         </div>
       </section>
-    </div>
+
   );
 };
 

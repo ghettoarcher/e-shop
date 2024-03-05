@@ -1,4 +1,5 @@
 .categories{
+
     height: 400px;
     display: flex;
     flex-direction: row;
@@ -10,8 +11,6 @@
     padding-right: 20px;
     border: 1px solid #DEE2E7 ;
 }
-
-
 
 .categories-column-item{
     font-family: Inter;

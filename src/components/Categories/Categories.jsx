@@ -1,7 +1,6 @@
 
 export default function Categories(){
       return(
-            <div className="container">
             <section className="categories">
                   <div className="categories-column">
                         <div className="categories-column-item active"><a href="#">Automobiles</a></div>
@@ -50,6 +49,6 @@ export default function Categories(){
                   </div>
                   </div>
             </section>
-      </div>
+
       )
 }

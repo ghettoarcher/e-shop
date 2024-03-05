@@ -13,12 +13,12 @@
 @import url(footer.css);
 @import url(subscribe.css);
 @import url(footer.css);
-
-
+*{
+    box-sizing: border-box;
+}
 
 body{
       margin: 0;
       padding: 0;
-      background: var(--gray-100, #F7FAFC);
-      box-sizing: border-box;      
+    
 }
