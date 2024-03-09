@@ -20,6 +20,11 @@
 body{
       margin: 0;
       padding: 0;
-      background-color: #f7fafc;
+      
     
+}
+
+.wrapper{
+    padding-top: 1px;
+    background-color: #f7fafc;
 }

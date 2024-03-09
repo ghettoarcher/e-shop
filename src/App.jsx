@@ -13,12 +13,14 @@ import Footer from './components/Footer'
 
 export default function App() {
 
-  return (  <>
-          <div className="container">    
-        <Header/>
-        </div> 
-        <Navmenu/>
-        <div className="container">  
+  return (  
+    <>
+              
+          <Header/>
+          <Navmenu/>
+          <div className="wrapper">
+          <div className="container">  
+          
           <Categories/>
           <Deals/>
           <Gadgets/>
@@ -27,10 +29,10 @@ export default function App() {
           <Extra/>
           <Suppliers/>
           </div> 
+          </div>
         <Subscribe/>
         <Footer/>
-
-                </>
+    </>
   )
 }
 

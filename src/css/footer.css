@@ -44,9 +44,11 @@ footer{
    padding-top: 16px;
    display: flex;
    flex-direction: row;
+
+}
+.footer-icon img{
    width: 32px;
    height: 32px;
-   flex-shrink: 0;
 }
 
 .main-information-footer{

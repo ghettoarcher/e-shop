@@ -1,13 +1,14 @@
 .categories{
-
+padding-top: 20px;
+padding-bottom: 20px;
     height: 400px;
     display: flex;
     flex-direction: row;
     background-color: #fff;
     margin-top: 20px;
+
     justify-content: space-between;
     padding-left: 14px;
-    padding-top: 17px;
     padding-right: 20px;
     border: 1px solid #DEE2E7 ;
 }
