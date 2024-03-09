@@ -5,20 +5,20 @@ import Deals from './components/Deals/Deals'
 import Gadgets from './components/source/Source'
 import Form from './components/Form'
 import Recommended from './components/recommended/Recommended'
-import Extra from './components/Extra/Extra'
+import Extra from './components/extra/Extra'
 import Suppliers from './components/suppliers/Suppliers'
 import Subscribe from './components/subscribe/Subscribe'
 import Footer from './components/Footer'
 
 
-
 export default function App() {
 
-  return (  
-          <>      
+  return (  <>
+          <div className="container">    
         <Header/>
+        </div> 
         <Navmenu/>
-        <div className='container'> 
+        <div className="container">  
           <Categories/>
           <Deals/>
           <Gadgets/>
@@ -26,10 +26,11 @@ export default function App() {
           <Recommended/>
           <Extra/>
           <Suppliers/>
-        </div>
+          </div> 
         <Subscribe/>
         <Footer/>
-          </>
+
+                </>
   )
 }
 

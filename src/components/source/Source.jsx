@@ -6,7 +6,7 @@ export default function Source(){
             {
             name: 'Soft chairs',
             price: 20,
-            image: '/src/icons/flags/AE@2x.png'
+            image: '/src/img/interior/2.png'
             },
             {
             name: 'Soft chairs',
@@ -16,7 +16,7 @@ export default function Source(){
             {
             name: 'Kitchen dishes',
             price: 19,
-            image: '/src/img/interior/3.png'
+            image: 'src/img/interior/2.png'
             },
             {
             name: 'Kitchen mixer',

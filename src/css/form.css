@@ -1,4 +1,4 @@
-.form-section{
+.form{
   background: url(/src/img/background-form.png) no-repeat ;
   background: linear-gradient(95deg, #2C7CF1 7.19%, rgba(0, 209, 255, 0.50) 89.49%);
   mix-blend-mode: multiply;
@@ -21,9 +21,6 @@
    color: #FFF;
    padding-top: 50px;
    padding-left: 50px;
-   font-feature-settings: 'clig' off, 'liga' off;
-
-/* Title-H1 */
    font-family: Inter;
    font-size: 32px;
    font-style: normal;

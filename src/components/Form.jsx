@@ -1,9 +1,7 @@
-import '../css/form.css'
-import '../css/container.css'
+
 export default function Form(){
       
-      <div className="container">
-      <section className="form-section">
+      <section className="form">
          
       
             <div className="form-description">
@@ -26,6 +24,4 @@ export default function Form(){
             </form>
       </section>
 
-                       
-</div>
 }
